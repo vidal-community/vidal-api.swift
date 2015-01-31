@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D013B62E1A7D1C550047F114 /* vidal-api.swift.h in Headers */ = {isa = PBXBuildFile; fileRef = D013B62D1A7D1C550047F114 /* vidal-api.swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D013B6341A7D1C550047F114 /* VidalApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013B6281A7D1C550047F114 /* VidalApi.framework */; };
+		D013B63B1A7D1C550047F114 /* HelloVidalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */; };
+		D013B64B1A7D2DDD0047F114 /* HelloVidal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D013B6351A7D1C550047F114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013B61F1A7D1C550047F114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D013B6271A7D1C550047F114;
+			remoteInfo = "vidal-api.swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D013B6281A7D1C550047F114 /* VidalApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VidalApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013B62C1A7D1C550047F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D013B62D1A7D1C550047F114 /* vidal-api.swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vidal-api.swift.h"; sourceTree = "<group>"; };
+		D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vidal-api.swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013B6391A7D1C550047F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVidalTests.swift; sourceTree = "<group>"; };
+		D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloVidal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D013B6241A7D1C550047F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013B6301A7D1C550047F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013B6341A7D1C550047F114 /* VidalApi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D013B61E1A7D1C550047F114 = {
+			isa = PBXGroup;
+			children = (
+				D013B62A1A7D1C550047F114 /* src */,
+				D013B6371A7D1C550047F114 /* tests */,
+				D013B6291A7D1C550047F114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D013B6291A7D1C550047F114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D013B6281A7D1C550047F114 /* VidalApi.framework */,
+				D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D013B62A1A7D1C550047F114 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D013B62D1A7D1C550047F114 /* vidal-api.swift.h */,
+				D013B62B1A7D1C550047F114 /* Supporting Files */,
+				D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */,
+			);
+			name = src;
+			path = "vidal-api.swift";
+			sourceTree = "<group>";
+		};
+		D013B62B1A7D1C550047F114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D013B62C1A7D1C550047F114 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D013B6371A7D1C550047F114 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */,
+				D013B6381A7D1C550047F114 /* Supporting Files */,
+			);
+			name = tests;
+			path = "vidal-api.swiftTests";
+			sourceTree = "<group>";
+		};
+		D013B6381A7D1C550047F114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D013B6391A7D1C550047F114 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D013B6251A7D1C550047F114 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013B62E1A7D1C550047F114 /* vidal-api.swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D013B6271A7D1C550047F114 /* vidal-api.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swift" */;
+			buildPhases = (
+				D013B6231A7D1C550047F114 /* Sources */,
+				D013B6241A7D1C550047F114 /* Frameworks */,
+				D013B6251A7D1C550047F114 /* Headers */,
+				D013B6261A7D1C550047F114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vidal-api.swift";
+			productName = "vidal-api.swift";
+			productReference = D013B6281A7D1C550047F114 /* VidalApi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D013B6321A7D1C550047F114 /* vidal-api.swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swiftTests" */;
+			buildPhases = (
+				D013B62F1A7D1C550047F114 /* Sources */,
+				D013B6301A7D1C550047F114 /* Frameworks */,
+				D013B6311A7D1C550047F114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D013B6361A7D1C550047F114 /* PBXTargetDependency */,
+			);
+			name = "vidal-api.swiftTests";
+			productName = "vidal-api.swiftTests";
+			productReference = D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D013B61F1A7D1C550047F114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vidal;
+				TargetAttributes = {
+					D013B6271A7D1C550047F114 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D013B6321A7D1C550047F114 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D013B6221A7D1C550047F114 /* Build configuration list for PBXProject "vidal-api.swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D013B61E1A7D1C550047F114;
+			productRefGroup = D013B6291A7D1C550047F114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D013B6271A7D1C550047F114 /* vidal-api.swift */,
+				D013B6321A7D1C550047F114 /* vidal-api.swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D013B6261A7D1C550047F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013B6311A7D1C550047F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D013B6231A7D1C550047F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013B64B1A7D2DDD0047F114 /* HelloVidal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013B62F1A7D1C550047F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013B63B1A7D1C550047F114 /* HelloVidalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D013B6361A7D1C550047F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D013B6271A7D1C550047F114 /* vidal-api.swift */;
+			targetProxy = D013B6351A7D1C550047F114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D013B63C1A7D1C550047F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D013B63D1A7D1C550047F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D013B63F1A7D1C550047F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "vidal-api.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = VidalApi;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D013B6401A7D1C550047F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "vidal-api.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = VidalApi;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D013B6421A7D1C550047F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vidal-api.swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D013B6431A7D1C550047F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vidal-api.swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D013B6221A7D1C550047F114 /* Build configuration list for PBXProject "vidal-api.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013B63C1A7D1C550047F114 /* Debug */,
+				D013B63D1A7D1C550047F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013B63F1A7D1C550047F114 /* Debug */,
+				D013B6401A7D1C550047F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013B6421A7D1C550047F114 /* Debug */,
+				D013B6431A7D1C550047F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D013B61F1A7D1C550047F114 /* Project object */;
+}
