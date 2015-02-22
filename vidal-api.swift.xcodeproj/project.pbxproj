@@ -11,6 +11,7 @@
 		D013B6341A7D1C550047F114 /* VidalApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013B6281A7D1C550047F114 /* VidalApi.framework */; };
 		D013B63B1A7D1C550047F114 /* HelloVidalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */; };
 		D013B64B1A7D2DDD0047F114 /* HelloVidal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */; };
+		DEC60FE68226407D985961CA /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905377CDE686820B77F5AA79 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19F275292DAAC78208DF0150 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		905377CDE686820B77F5AA79 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C7E8ECF6C895BAB470B5C /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 		D013B6281A7D1C550047F114 /* VidalApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VidalApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D013B62C1A7D1C550047F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D013B62D1A7D1C550047F114 /* vidal-api.swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vidal-api.swift.h"; sourceTree = "<group>"; };
-		D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vidal-api.swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013B6331A7D1C550047F114 /* test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D013B6391A7D1C550047F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVidalTests.swift; sourceTree = "<group>"; };
 		D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloVidal.swift; sourceTree = "<group>"; };
@@ -46,18 +50,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				D013B6341A7D1C550047F114 /* VidalApi.framework in Frameworks */,
+				DEC60FE68226407D985961CA /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282CFFFF6D86F16664F6F0F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F275292DAAC78208DF0150 /* Pods-test.debug.xcconfig */,
+				B96C7E8ECF6C895BAB470B5C /* Pods-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9A47C793C1115CEDD0A48CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				905377CDE686820B77F5AA79 /* libPods-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D013B61E1A7D1C550047F114 = {
 			isa = PBXGroup;
 			children = (
 				D013B62A1A7D1C550047F114 /* src */,
 				D013B6371A7D1C550047F114 /* tests */,
 				D013B6291A7D1C550047F114 /* Products */,
+				282CFFFF6D86F16664F6F0F5 /* Pods */,
+				C9A47C793C1115CEDD0A48CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				D013B6281A7D1C550047F114 /* VidalApi.framework */,
-				D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */,
+				D013B6331A7D1C550047F114 /* test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
+				CC0FB068DEFE0193034D3CC4 /* Check Pods Manifest.lock */,
 				D013B62F1A7D1C550047F114 /* Sources */,
 				D013B6301A7D1C550047F114 /* Frameworks */,
 				D013B6311A7D1C550047F114 /* Resources */,
+				3B0DF7955C71687BB7F28E5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,7 +180,7 @@
 			);
 			name = test;
 			productName = "vidal-api.swiftTests";
-			productReference = D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */;
+			productReference = D013B6331A7D1C550047F114 /* test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +234,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B0DF7955C71687BB7F28E5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0FB068DEFE0193034D3CC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D013B6231A7D1C550047F114 /* Sources */ = {
@@ -357,6 +416,7 @@
 		};
 		D013B6421A7D1C550047F114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F275292DAAC78208DF0150 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -374,6 +434,7 @@
 		};
 		D013B6431A7D1C550047F114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C7E8ECF6C895BAB470B5C /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
