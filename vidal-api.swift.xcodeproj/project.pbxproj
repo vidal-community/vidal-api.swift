@@ -121,9 +121,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D013B6271A7D1C550047F114 /* vidal-api.swift */ = {
+		D013B6271A7D1C550047F114 /* src */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swift" */;
+			buildConfigurationList = D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "src" */;
 			buildPhases = (
 				D013B6231A7D1C550047F114 /* Sources */,
 				D013B6241A7D1C550047F114 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = "vidal-api.swift";
+			name = src;
 			productName = "vidal-api.swift";
 			productReference = D013B6281A7D1C550047F114 /* VidalApi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D013B6321A7D1C550047F114 /* vidal-api.swiftTests */ = {
+		D013B6321A7D1C550047F114 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swiftTests" */;
+			buildConfigurationList = D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
 				D013B62F1A7D1C550047F114 /* Sources */,
 				D013B6301A7D1C550047F114 /* Frameworks */,
@@ -152,7 +152,7 @@
 			dependencies = (
 				D013B6361A7D1C550047F114 /* PBXTargetDependency */,
 			);
-			name = "vidal-api.swiftTests";
+			name = test;
 			productName = "vidal-api.swiftTests";
 			productReference = D013B6331A7D1C550047F114 /* vidal-api.swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -186,8 +186,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D013B6271A7D1C550047F114 /* vidal-api.swift */,
-				D013B6321A7D1C550047F114 /* vidal-api.swiftTests */,
+				D013B6271A7D1C550047F114 /* src */,
+				D013B6321A7D1C550047F114 /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		D013B6361A7D1C550047F114 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D013B6271A7D1C550047F114 /* vidal-api.swift */;
+			target = D013B6271A7D1C550047F114 /* src */;
 			targetProxy = D013B6351A7D1C550047F114 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swift" */ = {
+		D013B63E1A7D1C550047F114 /* Build configuration list for PBXNativeTarget "src" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D013B63F1A7D1C550047F114 /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "vidal-api.swiftTests" */ = {
+		D013B6411A7D1C550047F114 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D013B6421A7D1C550047F114 /* Debug */,

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D013B6271A7D1C550047F114"
                BuildableName = "VidalApi.framework"
-               BlueprintName = "vidal-api.swift"
+               BlueprintName = "src"
                ReferencedContainer = "container:vidal-api.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D013B6321A7D1C550047F114"
-               BuildableName = "vidal-api.swiftTests.xctest"
-               BlueprintName = "vidal-api.swiftTests"
+               BuildableName = "test.xctest"
+               BlueprintName = "test"
                ReferencedContainer = "container:vidal-api.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D013B6321A7D1C550047F114"
-               BuildableName = "vidal-api.swiftTests.xctest"
-               BlueprintName = "vidal-api.swiftTests"
+               BuildableName = "test.xctest"
+               BlueprintName = "test"
                ReferencedContainer = "container:vidal-api.swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D013B6271A7D1C550047F114"
             BuildableName = "VidalApi.framework"
-            BlueprintName = "vidal-api.swift"
+            BlueprintName = "src"
             ReferencedContainer = "container:vidal-api.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -77,7 +77,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D013B6271A7D1C550047F114"
             BuildableName = "VidalApi.framework"
-            BlueprintName = "vidal-api.swift"
+            BlueprintName = "src"
             ReferencedContainer = "container:vidal-api.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -95,7 +95,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D013B6271A7D1C550047F114"
             BuildableName = "VidalApi.framework"
-            BlueprintName = "vidal-api.swift"
+            BlueprintName = "src"
             ReferencedContainer = "container:vidal-api.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
