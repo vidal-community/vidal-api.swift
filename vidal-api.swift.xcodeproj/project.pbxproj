@@ -35,6 +35,7 @@
 		D013B6391A7D1C550047F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVidalTests.swift; sourceTree = "<group>"; };
 		D013B64A1A7D2DDD0047F114 /* HelloVidal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloVidal.swift; sourceTree = "<group>"; };
+		D023CEA71A9A4B49007AABDF /* VidalApi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VidalApi-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 			children = (
 				D013B63A1A7D1C550047F114 /* HelloVidalTests.swift */,
 				D013B6381A7D1C550047F114 /* Supporting Files */,
+				D023CEA71A9A4B49007AABDF /* VidalApi-Bridging-Header.h */,
 			);
 			name = tests;
 			path = "vidal-api.swiftTests";
@@ -429,6 +431,7 @@
 				INFOPLIST_FILE = "vidal-api.swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/vidal-api.swiftTests/VidalApi-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -443,6 +446,7 @@
 				INFOPLIST_FILE = "vidal-api.swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/vidal-api.swiftTests/VidalApi-Bridging-Header.h";
 			};
 			name = Release;
 		};
